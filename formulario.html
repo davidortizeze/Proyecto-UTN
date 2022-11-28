@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos.css">
+    <title>Carga de datos</title>
+</head>
+<body>
+<div class="formu">
+    <h1 class="titulo4">DATOS EQUIPO</h1>
+    <form action="https://formspree.io/f/xdojzbzj" method="post">
+        <label for="equipo"> Equipo
+            <input type="text" name="Equipo" id="Equipo" class="cargadatos">
+        </label>
+        <label for="Fecha"> Fecha
+            <input type="date" name="Fecha" id="Fecha" class="cargadatos" required>
+        </label>
+        <label for="Tag"> Tag Equipo 
+            <input type="text" name="Tag" id="Tag" class="cargadatos" required>
+        </label>
+        <label for="Falla">Falla
+            <input type="text" name="Falla" id="Falla" class="cargadatos">
+        </label>
+        <label for="Estado">Estado
+            <select name="Estado" id="cargadatos">
+                <option value="Enproceso">En proceso</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="Terminado">Terminado</option>
+            </select>
+            <select name="criticidad" id="cargadatos">
+                <option value="Critico">Critico</option>
+                <option value="moderado">Moderado</option>
+                <option value="leve">Leve</option>
+            </select>
+        </label>
+        <label for="Adjuntarimagen">Adjuntar Imagen
+            <input type="file" value="Adjuntar" class="botonadjuntar">
+        </label>
+
+        <label for="Descripcion">Descripcion</label>
+        <textarea name="Descripcion Falla" id="Descripcion" placeholder="Descripcion falla.." maxlength="400" class="descripcion"></textarea>
+        
+        <input type="submit" value="Enviar" class="botonenviar">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(140, 140, 140);
+    opacity: 98%;
+}
+.titulo1{
+    padding: 50px 0px 50px 600px;
+    color: white;
+}
+
+.titulo2{
+    padding: 50px 0px 50px 700px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+    padding: 10px 0px 0px 200px;
+}
+img{
+    width: 400px;  
+}
+.equipos{
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+.imagenEquipos{
+    width: 70px;
+    color: black;
+    text-align: center;
+}
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubicacion{
+    font-size: xx-large;
+}
+.formu{
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 500px;
+}
+.titulo4{
+    padding: 0px 0px 10px 100px;
+}
+.cargadatos{
+    background-color: white;
+}
+.botonenviar{
+    background-color: white;
+}
+.descripcion{
+    background-color: white;
+}
